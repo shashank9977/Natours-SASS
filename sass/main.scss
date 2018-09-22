@@ -1,0 +1,43 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+/* cross browser reset*/
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "pages/home";
+@import "components/button";
+@import "components/bg-video";
+@import "components/Card";
+@import "components/form";
+@import "components/Story";
+@import "layout/grid";
+@import "layout/header";
+
+@import "components/composition";
+@import "components/feature-box";
+// ,
+
+
+
+
+
+
+/*pseudo class */
+
+
+
+
+
+

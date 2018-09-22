@@ -1,0 +1,16 @@
+*,
+*::after,/* for after and before psuedo elements as well */
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; /* set each and every other element to inherit*/
+}
+html{
+    // this defines what 1 rem is
+     font-size: 62.5%; /*1 rem =10px  */
+     /*we want 10 , we divide it by root size 16 so (10/16)*100 =62.5*/ 
+}
+
+body{
+    box-sizing: border-box;
+}
